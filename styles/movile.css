@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+  }
+
+.main__container {
+    display: grid;
+    grid-template-columns: 2fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+.image{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.content {
+    border-radius: 20px;    
+    background-color: rgb(123, 40, 40);
+}
+
+.content h1 {
+    text-align: center;
+}
