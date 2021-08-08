@@ -3,15 +3,27 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
-  }
+   /* background-image: url("../images/pattern-background-mobile.svg");
+    background-size:cover;
+    background-repeat: no-repeat; */
+    
+    
+}
+
+body{
+    background-color: hsl(225, 100%, 94%);
+}
 
 .main__container {
     display: grid;
     grid-template-columns: 2fr;
+    grid-template-rows: 500px;
     margin-left: 20px;
     margin-right: 20px;
-    background-color: aquamarine;
+    margin-top: 100px;
     border-radius: 20px;
+    box-shadow: 5px 5px 5px  hsl(224, 23%, 55%);
+    background-color: black;
 }
 
 .image{
@@ -21,9 +33,20 @@
 
 .content {
     border-radius: 20px;    
-    background-color: rgb(123, 40, 40);
+    background-color: rgb(40, 123, 51);
 }
 
 .content h1 {
     text-align: center;
+}
+.content p {
+    text-align: center;
+    color:rgb(31, 47, 86);
+}
+
+.music__content {
+    margin-left:5px ;
+    margin-right: 5px;
+    background-color: hsl(225, 100%, 94%) ;
+    border-radius: 10px;
 }
