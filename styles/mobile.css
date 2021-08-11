@@ -1,6 +1,6 @@
 
 
-@media only screen and (max-width: 600px) {  
+@media only screen and (max-width: 579px) {  
 
 * {
     margin: 0;
@@ -83,6 +83,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: -20px;
 }
 .payment__button {
     color: #fff;
@@ -98,7 +99,7 @@ body{
 }
 
 .cancel__button {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0);
     color:hsl(224, 23%, 55%);
     margin-top: 10px;
     margin-left: 20px;
@@ -116,7 +117,6 @@ body{
 }
 
 .footer a{
-    
     color:hsl(245, 75%, 52%);
     text-decoration: none;
 }
