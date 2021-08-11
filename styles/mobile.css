@@ -57,8 +57,23 @@ body{
     border-radius: 10px;
 }
 
-.music__content a{
+.music__content svg{
+    margin-left: 5px;
+}
+
+.music {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
     margin-left: 10px;
+}
+
+
+.music__content a{
+    color:hsl(245, 75%, 52%);
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: underline;
 }
 
 .buttons{
@@ -72,14 +87,20 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     padding: 5px 5px 5px 5px;
+    font-size: 15px;
     border-radius: 10px;
     border-style: none;
     background-color:hsl(245, 75%, 52%);
+    box-shadow: 0px 7px 0px 0px  hsla(224, 21%, 54%, 0.139);;
 }
 
 .cancel__button {
+    background-color: #fff;
+    color:hsl(224, 23%, 55%);
     margin-top: 10px;
-    
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
     padding: 5px 5px 5px 5px;
     border-radius: 10px;
     border-style: none;
